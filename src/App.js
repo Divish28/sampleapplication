@@ -6,7 +6,9 @@ import ClassComponent from './Components/ClassComponent';
 import JsxStyling from './Components/JsxStyling';
 import JsxExpression from './Components/Jsxexpression';
 import FunctionalComponent from './Components/FunctionalComponent';
+import FunctionalProps from './Components/FunctionalProps';
 
+const user={fname:'arun', lname:'sundar'}
 function App() {
   return (
     <body>
@@ -28,6 +30,14 @@ function App() {
       </div>
       <div>
         <ClassComponent/>
+      </div>
+      <div>
+        <FunctionalProps fname="Arun"/>
+        <FunctionalProps fname="Divish"/>
+        <FunctionalProps fname="Kavi"/>
+      </div>
+      <div>
+        <button>ON</button>
       </div>
       </body>
     // <div className="App">
