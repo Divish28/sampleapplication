@@ -5,6 +5,7 @@ import NestedJsx from './Components/NestedJsx';
 import ClassComponent from './Components/ClassComponent';
 import JsxStyling from './Components/JsxStyling';
 import JsxExpression from './Components/Jsxexpression';
+import FunctionalComponent from './Components/FunctionalComponent';
 
 function App() {
   return (
@@ -17,13 +18,16 @@ function App() {
         <NestedJsx/>
       </div>
       <div>
-        <ClassComponent/>
-      </div>
-      <div>
         <JsxStyling/>
       </div>
       <div>
         <JsxExpression/>
+      </div>
+      <div>
+        <FunctionalComponent/>
+      </div>
+      <div>
+        <ClassComponent/>
       </div>
       </body>
     // <div className="App">
