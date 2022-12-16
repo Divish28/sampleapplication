@@ -1,24 +1,47 @@
 import logo from './logo.svg';
 import './App.css';
+import SampleJsx from './Components/SampleJsx';
+import NestedJsx from './Components/NestedJsx';
+import ClassComponent from './Components/ClassComponent';
+import JsxStyling from './Components/JsxStyling';
+import JsxExpression from './Components/Jsxexpression';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <div>
+        <h1>This is the Main App component</h1>
+        <SampleJsx/>
+      </div>
+      <div>
+        <NestedJsx/>
+      </div>
+      <div>
+        <ClassComponent/>
+      </div>
+      <div>
+        <JsxStyling/>
+      </div>
+      <div>
+        <JsxExpression/>
+      </div>
+      </body>
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //     </p>
+    //     <a
+    //       className="App-link"
+    //       href="https://reactjs.org"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //     >
+    //       Learn React
+    //     </a>
+    //   </header>
+    // </div>
   );
 }
 
