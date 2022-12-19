@@ -7,8 +7,11 @@ import JsxStyling from './Components/JsxStyling';
 import JsxExpression from './Components/Jsxexpression';
 import FunctionalComponent from './Components/FunctionalComponent';
 import FunctionalProps from './Components/FunctionalProps';
+import ClassProps from './Components/ClassProps';
+import States from './Components/States';
+import Login from './Components/Login';
 
-const user={fname:'arun', lname:'sundar'}
+// const user={fname:'arun', lname:'sundar'}
 function App() {
   return (
     <body>
@@ -32,12 +35,18 @@ function App() {
         <ClassComponent/>
       </div>
       <div>
-        <FunctionalProps fname="Arun"/>
-        <FunctionalProps fname="Divish"/>
-        <FunctionalProps fname="Kavi"/>
+        <FunctionalProps fname="Arun" lname="sundar"/>
+        <FunctionalProps fname="Divish" lname="Kumar"/>
+        <FunctionalProps fname="Kavi" lname="arasu">This is child Prop</FunctionalProps>
       </div>
       <div>
-        <button>ON</button>
+        <ClassProps userName="Divish K"/>
+      </div>
+      <div>
+        <States/>
+      </div>
+      <div>
+        <Login/>
       </div>
       </body>
     // <div className="App">

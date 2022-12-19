@@ -1,0 +1,28 @@
+.Login-heading{
+    text-align: center;
+}
+form{
+    align-items: center;
+    border: 1px solid;
+    margin-left: 700px;
+    height:200px;
+    width:400px;
+}
+
+label{
+    display: inline-block;
+    padding: 12px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+input{
+    display: inline;
+    padding: 1;
+}
+.Login-Button{
+    padding-top: 25px;
+    margin-left:170px;
+}
+.New-user{
+    text-align: center;
+}
