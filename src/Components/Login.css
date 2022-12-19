@@ -19,10 +19,12 @@ label{
 input{
     display: inline;
     padding: 1;
+    height:25px;
+    border-radius: 8px;
 }
 .Login-Button{
     padding-top: 25px;
-    margin-left:170px;
+    margin-left:185px;
 }
 .New-user{
     text-align: center;

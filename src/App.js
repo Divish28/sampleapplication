@@ -16,6 +16,9 @@ import Events from './Components/Events';
 function App() {
   return (
     <body>
+            <div>
+        <Login/>
+      </div>
       <div>
         <h1>This is the Main App component</h1>
         <SampleJsx/>
@@ -45,9 +48,6 @@ function App() {
       </div>
       <div>
         <States/>
-      </div>
-      <div>
-        <Login/>
       </div>
       <div>
         <Events/>
