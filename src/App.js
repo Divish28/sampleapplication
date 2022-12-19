@@ -10,8 +10,9 @@ import FunctionalProps from './Components/FunctionalProps';
 import ClassProps from './Components/ClassProps';
 import States from './Components/States';
 import Login from './Components/Login';
+import Events from './Components/Events';
 
-// const user={fname:'arun', lname:'sundar'}
+  
 function App() {
   return (
     <body>
@@ -47,6 +48,9 @@ function App() {
       </div>
       <div>
         <Login/>
+      </div>
+      <div>
+        <Events/>
       </div>
       </body>
     // <div className="App">
