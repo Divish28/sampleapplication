@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import SampleJsx from './Components/SampleJsx';
 import NestedJsx from './Components/NestedJsx';
@@ -11,6 +11,7 @@ import ClassProps from './Components/ClassProps';
 import States from './Components/States';
 import Login from './Components/Login';
 import Events from './Components/Events';
+import ToggleEvent from './Components/ToggleEvent';
 
   
 function App() {
@@ -51,6 +52,9 @@ function App() {
       </div>
       <div>
         <Events/>
+      </div>
+      <div>
+        <ToggleEvent/>
       </div>
       </body>
     // <div className="App">

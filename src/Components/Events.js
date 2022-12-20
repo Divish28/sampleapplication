@@ -4,8 +4,8 @@ import React from 'react'
 function Events() {
     const getAlert=(a,b)=>alert(b.type);
   return (
-    <div> This is Event
-        <button onClick={(event)=>{getAlert("Alertt",event)}}>Click to get alert</button>
+    <div> <p>This is Event
+        <button onClick={(event)=>{getAlert("Alertt",event)}}>Click to get alert</button></p>
     </div>
   )
 }

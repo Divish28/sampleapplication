@@ -1,7 +1,15 @@
 import React from 'react'
+import { useState } from 'react'
 import './Login.css'
 
 function Login() {
+  const [input,setName]=useState({})
+
+  function change(event){
+    setName(event.target.value)
+  }
+ 
+
   return (
     <div>
         <h1 className='Login-heading'>Login Form</h1>
@@ -9,11 +17,11 @@ function Login() {
             <div className='Login-input'>
               <div>
                 <label className='Login-Username-label'>Username:</label>
-                <input className='Login-Username-Input' type={"email"} placeholder='Enter E-mail' required></input>
+                <input onChange={(event)=>change(event)} className='Login-Username-Input' type={"email"} placeholder='Enter E-mail' required ></input>
               </div>
               <div>
                   <label className='Login-Password-Label'>Password:</label>
-                  <input className='Login-Password-Input' type={"password"} placeholder='Enter Password' required minLength={8}></input>
+                  <input onChange={(event)=>change(event)} className='Login-Password-Input' type={"password"} placeholder='Enter Password' required minLength={8}></input>
               </div>
               <div>
                   <a id='Forgot-Password' href=''></a>
