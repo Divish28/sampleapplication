@@ -7,7 +7,10 @@ function Login() {
 
   function change(event){
     setName(event.target.value)
+    setName(event.target.value)
   }
+
+  
  
 
   return (

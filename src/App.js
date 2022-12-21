@@ -1,4 +1,6 @@
 //import logo from './logo.svg';
+import { ReactDOM } from 'react';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 import SampleJsx from './Components/SampleJsx';
 import NestedJsx from './Components/NestedJsx';
@@ -16,8 +18,15 @@ import ToggleEvent from './Components/ToggleEvent';
   
 function App() {
   return (
+    // <BrowserRouter>
+    // <Routes>
+    //   <Route index element={<NestedJsx/>}></Route>
+    //   <Route path='sample' element={<SampleJsx/>}></Route>
+    //   <Route path='login' element={<ClassComponent/>}></Route>
+    // </Routes>
+    // </BrowserRouter>
     <body>
-            <div>
+      <div>
         <Login/>
       </div>
       <div>
@@ -57,6 +66,8 @@ function App() {
         <ToggleEvent/>
       </div>
       </body>
+
+
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
