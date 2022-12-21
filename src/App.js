@@ -14,6 +14,7 @@ import States from './Components/States';
 import Login from './Components/Login';
 import Events from './Components/Events';
 import ToggleEvent from './Components/ToggleEvent';
+import ComponentLifecycle from './Components/ComponentLifecycle';
 
   
 function App() {
@@ -25,7 +26,7 @@ function App() {
     //   <Route path='login' element={<ClassComponent/>}></Route>
     // </Routes>
     // </BrowserRouter>
-    <body>
+    <div>
       <div>
         <Login/>
       </div>
@@ -65,7 +66,10 @@ function App() {
       <div>
         <ToggleEvent/>
       </div>
-      </body>
+      <div>
+        <ComponentLifecycle/>
+      </div>
+      </div>
 
 
     // <div className="App">

@@ -10,14 +10,14 @@ export class States extends Component {
         count:0
       }
     }
+    
     changeName(event){
         this.setState({
             userName:event.target.value,
             count:this.state.count+1
         })
       }
-
-
+      
   render() {
     return (
       <div>
