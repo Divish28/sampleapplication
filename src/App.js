@@ -15,6 +15,7 @@ import Login from './Components/Login';
 import Events from './Components/Events';
 import ToggleEvent from './Components/ToggleEvent';
 import ComponentLifecycle from './Components/ComponentLifecycle';
+import ReactUseState from './Components/ReactUseState';
 
   
 function App() {
@@ -68,6 +69,9 @@ function App() {
       </div>
       <div>
         <ComponentLifecycle/>
+      </div>
+      <div>
+        <ReactUseState/>
       </div>
       </div>
 
