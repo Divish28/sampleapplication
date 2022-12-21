@@ -11,6 +11,6 @@ function ReactUseState() {
         <button onClick={()=>changing("React JS")}>Lang Change</button>
     </div>
   )
-}
+  }
 
 export default ReactUseState
