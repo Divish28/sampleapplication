@@ -9,9 +9,9 @@ export class ComponentLifecycle extends Component {
       }
     }
 
-    // componentWillMount(){
-    //     console.log("this is Will Mount Method(Not Recommendable)")
-    // }
+    componentWillMount(){
+        console.log("this is Will Mount Method(Not Recommendable)")
+     }
 
     componentDidMount(){
         console.log("this is Component Did Mount")
