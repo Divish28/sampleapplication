@@ -16,6 +16,7 @@ import Events from './Components/Events';
 import ToggleEvent from './Components/ToggleEvent';
 import ComponentLifecycle from './Components/ComponentLifecycle';
 import ReactUseState from './Components/ReactUseState';
+import ParentComp from './Components/ParentComp';
 
   
 function App() {
@@ -28,7 +29,8 @@ function App() {
     // </Routes>
     // </BrowserRouter>
     <div>
-      <div>
+      {/* <ParentComp/> */}
+      {/* <div>
         <Login/>
       </div>
       <div>
@@ -72,7 +74,7 @@ function App() {
       </div>
       <div>
         <ReactUseState/>
-      </div>
+      </div> */}
       </div>
 
 
