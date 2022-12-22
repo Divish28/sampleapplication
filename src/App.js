@@ -17,18 +17,14 @@ import ToggleEvent from './Components/ToggleEvent';
 import ComponentLifecycle from './Components/ComponentLifecycle';
 import ReactUseState from './Components/ReactUseState';
 import ParentComp from './Components/ParentComp';
+import ConditionalRendering from './Components/ConditionalRendering';
 
   
 function App() {
   return (
-    // <BrowserRouter>
-    // <Routes>
-    //   <Route index element={<NestedJsx/>}></Route>
-    //   <Route path='sample' element={<SampleJsx/>}></Route>
-    //   <Route path='login' element={<ClassComponent/>}></Route>
-    // </Routes>
-    // </BrowserRouter>
     <div>
+
+      {/* <ConditionalRendering/> */}
       {/* <ParentComp/> */}
       {/* <div>
         <Login/>

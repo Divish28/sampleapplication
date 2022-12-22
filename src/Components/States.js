@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class States extends Component {
     constructor(props) {
       super(props)
-    //  this.changeName=this.changeName.bind(this)
+     this.changeName=this.changeName.bind(this)
     
       this.state = {
         userName:"Divish",
@@ -13,7 +13,7 @@ export class States extends Component {
     
     changeName(event){
         this.setState({
-            userName:event.target.value,
+            // userName:event.target.value,
             count:this.state.count+1
         })
       }
