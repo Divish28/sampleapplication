@@ -3,28 +3,36 @@ import { useState } from 'react'
 import './Login.css'
 
 function Login() {
-  const [input,setName]=useState({})
+  const [input,setInput]=useState({})
 
-  function change(event){
-    setName(event.target.value)
-    setName(event.target.value)
+  const change=(event)=>{
+    const name = event.target.name
+    const value= event.target.value
+    setInput(values=>({...values,[name]:value}))
   }
 
+  const handleSubmit = (event) => {
+
+    event.preventDefault();
+
+    console.log(input);
+
+  }
   
  
 
   return (
     <div>
         <h1 className='Login-heading'>Login Form</h1>
-        <form className='Login-Form'>
+        <form className='Login-Form'onSubmit={handleSubmit}>
             <div className='Login-input'>
               <div>
                 <label className='Login-Username-label'>Username:</label>
-                <input onChange={(event)=>change(event)} className='Login-Username-Input' type={"email"} placeholder='Enter E-mail' required ></input>
+                <input onChange={change} name="username" value={input.username} className='Login-Username-Input' type={"email"} placeholder='Enter E-mail' required ></input>
               </div>
               <div>
                   <label className='Login-Password-Label'>Password:</label>
-                  <input onChange={(event)=>change(event)} className='Login-Password-Input' type={"password"} placeholder='Enter Password' required minLength={8}></input>
+                  <input onChange={change} name="password" value={input.password} className='Login-Password-Input' type={"password"} placeholder='Enter Password' required minLength={8}></input>
               </div>
               <div>
                   <a id='Forgot-Password' href=''></a>

@@ -18,14 +18,16 @@ import ComponentLifecycle from './Components/ComponentLifecycle';
 import ReactUseState from './Components/ReactUseState';
 import ParentComp from './Components/ParentComp';
 import ConditionalRendering from './Components/ConditionalRendering';
-
+import Fragment from './Components/Fragment';
   
 function App() {
   return (
     <div>
 
+<ComponentLifecycle/>
       {/* <ConditionalRendering/> */}
       {/* <ParentComp/> */}
+      {/* <Fragment/> */}
       {/* <div>
         <Login/>
       </div>
