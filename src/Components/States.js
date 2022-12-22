@@ -23,8 +23,8 @@ export class States extends Component {
       <div>
         <h2>I am {this.state.userName} ,This is change of State</h2>
         <h2>Count of the click is: {this.state.count}</h2>
-        {/* <button onClick={()=>this.changeName()}>Change Name</button> */}
-        <input onChange={(event)=>this.changeName(event)}/>
+        <button onClick={()=>this.changeName()}>Change Name</button>
+        {/* <input onChange={(event)=>this.changeName(event)}/> */}
       </div>
     )
   }
