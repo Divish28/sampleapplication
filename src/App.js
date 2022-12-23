@@ -2,33 +2,33 @@
 import { ReactDOM } from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
-import SampleJsx from './Components/SampleJsx';
-import NestedJsx from './Components/NestedJsx';
-import ClassComponent from './Components/ClassComponent';
-import JsxStyling from './Components/JsxStyling';
-import JsxExpression from './Components/Jsxexpression';
-import FunctionalComponent from './Components/FunctionalComponent';
-import FunctionalProps from './Components/FunctionalProps';
-import ClassProps from './Components/ClassProps';
-import States from './Components/States';
-import Login from './Components/Login';
-import Events from './Components/Events';
-import ToggleEvent from './Components/ToggleEvent';
-import ComponentLifecycle from './Components/ComponentLifecycle';
-import ReactUseState from './Components/ReactUseState';
-import ParentComp from './Components/ParentComp';
-import ConditionalRendering from './Components/ConditionalRendering';
-import Fragment from './Components/Fragment';
+import SampleJsx from './components/SampleJsx';
+import NestedJsx from './components/NestedJsx';
+import ClassComponent from './components/ClassComponent';
+import JsxStyling from './components/JsxStyling';
+import JsxExpression from './components/Jsxexpression';
+import FunctionalComponent from './components/FunctionalComponent';
+import FunctionalProps from './components/FunctionalProps';
+import ClassProps from './components/ClassProps';
+import States from './components/States';
+import Login from './components/Login';
+import Events from './components/Events';
+import ToggleEvent from './components/ToggleEvent';
+import ComponentLifecycle from './components/ComponentLifecycle';
+import ReactUseState from './components/ReactUseState';
+import ParentComp from './components/ParentComp';
+import ConditionalRendering from './components/ConditionalRendering';
+import Fragment from './components/Fragment';
   
 function App() {
   return (
     <div>
 
 <ComponentLifecycle/>
-      {/* <ConditionalRendering/> */}
-      {/* <ParentComp/> */}
-      {/* <Fragment/> */}
-      {/* <div>
+      <ConditionalRendering/>
+      <ParentComp/>
+      <Fragment/>
+      <div>
         <Login/>
       </div>
       <div>
@@ -72,7 +72,7 @@ function App() {
       </div>
       <div>
         <ReactUseState/>
-      </div> */}
+      </div>
       </div>
 
 
