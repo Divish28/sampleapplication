@@ -12,21 +12,21 @@ export class ConditionalRendering extends Component {
   render() {
 
     // Using If else
-    if (this.state.isLoggedIn) {
-        return("User is online")
+    // if (this.state.isLoggedIn) {
+    //     return("User is online")
         
-    } else {
-        return("User is Offline ")
-    }
+    // } else {
+    //     return("User is Offline ")
+    // }
 
     //Using element
-    // let statement
-    // if (this.state.isLoggedIn) {
-    //     statement=<h1>user Online</h1>
-    // } else {
-    //     statement=<h1>User Offline</h1>
-    // }
-    //     return statement
+    let statement
+    if (this.state.isLoggedIn) {
+        statement=<h1>user Online</h1>
+    } else {
+        statement=<h1>User Offline</h1>
+    }
+        return statement
 
 
     //terenary operator
