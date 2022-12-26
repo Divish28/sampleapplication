@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { Component, useEffect, useState } from 'react'
 import Memo from './Memo'
 import PureComp from './PureComp'
 import RegularComp from './RegularComp'
@@ -10,7 +10,14 @@ function ParentComp() {
 
   const[Name,setName]=useState("Divish")
 
-  setInterval(()=>{setName({Name:"Kumar"})},2000)
+  useEffect(()=>{
+    setInterval(()=>{setName({Name:"Kumar"})},2000)
+  },[])
+
+  //  setName(setInterval({Name:"Kumar"},2000))
+    
+
+  // setInterval(()=>{setName({Name:"Kumar"})},2000)
 
   return (
     <div>
