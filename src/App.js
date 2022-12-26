@@ -23,8 +23,9 @@ import Fragment from './components/Fragment';
 function App() {
   return (
     <div>
+      <ParentComp/>
 
-<ComponentLifecycle/>
+{/* <ComponentLifecycle/>
       <ConditionalRendering/>
       <ParentComp/>
       <Fragment/>
@@ -72,7 +73,7 @@ function App() {
       </div>
       <div>
         <ReactUseState/>
-      </div>
+      </div> */}
       </div>
 
 
