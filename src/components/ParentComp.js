@@ -15,6 +15,7 @@ function ParentComp() {
   useEffect(() => {
     setInterval(() => {setName("Kumar")}, 2000);
   })
+  
   return (
     <div>
       <PureComp name={Name}/>
