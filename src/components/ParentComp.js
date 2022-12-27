@@ -8,14 +8,16 @@ function ParentComp() {
 
   const[Name,setName]=useState("Divish")
 
+//  setInterval(()=>setName("kumar"),2000)
+
   // useEffect(()=>{
   //   setName(setInterval(this.setState({Name:"Kumar"}),2000))
   // })
 
   useEffect(() => {
-    setInterval(() => {setName("Kumar")}, 2000);
+    setTimeout(() => {setName("Kumar")}, 2000);
   })
-  
+
   return (
     <div>
       <PureComp name={Name}/>
