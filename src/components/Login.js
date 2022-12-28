@@ -32,7 +32,7 @@ function Login() {
               </div>
               <div>
                   <label className='Login-Password-Label'>Password:</label>
-                  <input onChange={change} name="password" value={input.password} className='Login-Password-Input' type={"password"} placeholder='Enter Password' required minLength={8}></input>
+                  <input data-testid="Login-test" onChange={change} name="password" value={input.password} className='Login-Password-Input' type={"password"} placeholder='Enter Password' required minLength={8}></input>
               </div>
               <div>
                   <a id='Forgot-Password' href=''></a>
