@@ -3,7 +3,6 @@ import Memo from './Memo'
 import PureComp from './PureComp'
 import RegularComp from './RegularComp'
 
-
 function ParentComp() {
 
   const[Name,setName]=useState("Divish")

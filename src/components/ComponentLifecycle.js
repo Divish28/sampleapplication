@@ -10,6 +10,7 @@ export class ComponentLifecycle extends Component {
     }
 
     componentDidMount(){
+      return("Did Mount")
         console.log("this is Component Did Mount")
     }
 
@@ -31,6 +32,7 @@ export class ComponentLifecycle extends Component {
         <h2>This is Lifecycle of components</h2>
         <h3>Clock: {this.state.tick}</h3>
         <button onClick={()=>this.Update()}>Update</button>
+        {this.componentDidMount}
       </div>
     )
   }
