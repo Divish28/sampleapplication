@@ -24,7 +24,15 @@ import UseRef from './components/UseRef';
 function App() {
   return (
     <div>
-      <ParentComp/>
+        {/* return ( */}
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Login/>}></Route>
+      <Route path='ParentComp' element={<ParentComp/>}></Route>
+    </Routes>
+    </BrowserRouter>
+      {/* <ParentComp/> */}
+      {/* <Login/> */}
       {/* <UseRef/> */}
 {/* <ComponentLifecycle/>
       <ConditionalRendering/>

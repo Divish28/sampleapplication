@@ -43,7 +43,10 @@ function Login() {
             </div>
         </form>
         <div className='New-user'>
-          <a  href=''>New User</a>
+          <a  href='#'>New User</a>
+        </div>
+        <div>
+          <a href='ParentComp'>parent Component</a>
         </div>
     </div>
   )
