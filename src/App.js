@@ -20,10 +20,12 @@ import ParentComp from './components/ParentComp';
 import ConditionalRendering from './components/ConditionalRendering';
 import Fragment from './components/Fragment';
 import UseRef from './components/UseRef';
+import GetAxios from './components/GetAxios';
   
 function App() {
   return (
     <div>
+      {/* <GetAxios/> */}
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Login/>}></Route>

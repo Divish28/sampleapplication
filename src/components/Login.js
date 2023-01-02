@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Login.css'
 
 function Login() {
@@ -46,7 +47,8 @@ function Login() {
           <a  href='#'>New User</a>
         </div>
         <div>
-          <a href='ParentComp'>parent Component</a>
+          <Link to={"parentComp"}>Parent Component</Link>
+          {/* <a Link to="" href='ParentComp'>parent Component</a> */}
         </div>
     </div>
   )
