@@ -13,7 +13,7 @@ export class ComponentLifecycle extends Component {
         console.log("this is Component Did Mount")
     }
 
-    Update(){
+    update(){
       this.setState({
         tick:"Tok Tik"
       })
@@ -30,7 +30,7 @@ export class ComponentLifecycle extends Component {
       <div>
         <h2>This is Lifecycle of components</h2>
         <h3>Clock: {this.state.tick}</h3>
-        <button onClick={()=>this.Update()}>Update</button>
+        <button onClick={()=>this.update()}>Update</button>
         {this.componentDidMount}
       </div>
     )
