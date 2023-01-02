@@ -48,7 +48,6 @@ function Login() {
         </div>
         <div>
           <Link to={"parentComp"}>Parent Component</Link>
-          {/* <a Link to="" href='ParentComp'>parent Component</a> */}
         </div>
     </div>
   )
