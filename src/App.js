@@ -25,6 +25,7 @@ function App() {
   return (
     <div>
         {/* return ( */}
+        <ComponentLifecycle/>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Login/>}></Route>

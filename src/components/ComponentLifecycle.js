@@ -10,7 +10,6 @@ export class ComponentLifecycle extends Component {
     }
 
     componentDidMount(){
-      return("Did Mount")
         console.log("this is Component Did Mount")
     }
 
