@@ -31,7 +31,6 @@ export class ComponentLifecycle extends Component {
         <h2>This is Lifecycle of components</h2>
         <h3>Clock: {this.state.tick}</h3>
         <button onClick={()=>this.update()}>Update</button>
-        {this.componentDidMount}
       </div>
     )
   }
