@@ -24,9 +24,6 @@ import UseRef from './components/UseRef';
 function App() {
   return (
     <div>
-        {/* return ( */}
-        <UseRef/>
-        <ComponentLifecycle/>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Login/>}></Route>

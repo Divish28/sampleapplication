@@ -7,12 +7,10 @@ function UseRef() {
   const passwordref=useRef(null)
  useEffect(() => { 
   reference.current.focus()
-  // passwordref.current.focus()
   })
   
   return (
     <div>This is UseRef 
-      <input ref={passwordref} type="password"/>
       <input ref={reference} type="text" />
     </div>
   )
