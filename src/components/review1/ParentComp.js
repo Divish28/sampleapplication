@@ -1,5 +1,5 @@
 import React, { Component, useEffect, useState } from 'react'
-import Memo from './Memo'
+import Memo from '/home/asplap3249/Desktop/React/sampleapplication/src/components/Memo.js'
 import PureComp from './PureComp'
 import RegularComp from './RegularComp'
 

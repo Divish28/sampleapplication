@@ -1,0 +1,18 @@
+{
+  "Name": [
+    {
+      "First": ["Divish","Arun","Kavi"],
+      "Last": ["Kumar","Sundar","Arasan"]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

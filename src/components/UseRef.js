@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRef,useEffect } from 'react'
-import RegularComp from './RegularComp'
+import RegularComp from './review1/RegularComp'
 
 function UseRef() {
   const reference=useRef(null)
